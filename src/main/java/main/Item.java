@@ -5,8 +5,12 @@ public class Item{
     public  void addItem(String itemName,int mrpItem){
         //write your code here
     	//-------------------
-
-    }
+    	this.itemName=itemName;
+    	this.mrp=mrpItem;
+    	Item i = new Item();
+    	i.setItemName( "To kill a mockingbird");
+    	i.setMrp(40);
+    	}
 	public String getItemName() {
 		return itemName;
 	}
@@ -19,5 +23,6 @@ public class Item{
 	public void setMrp(int mrp) {
 		this.mrp = mrp;
 	}
+	
     
 }
